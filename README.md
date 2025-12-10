@@ -81,6 +81,16 @@ Exit
 
 ---
 
+## Sample Data
+
+The application initializes some sample flights in code for quick testing:
+- Multiple flights to New York, Los Angeles, Chicago, Miami, and Seattle
+- Flights scheduled for tomorrow and the following days
+- Different seat capacities per flight
+This allows you to immediately search and book without manually seeding flights.
+
+---
+
 ## Design Decisions
 
 Separation of Concerns
@@ -178,6 +188,19 @@ All 24 unit tests pass with comprehensive coverage of:
 - REST API layer
 - Web UI instead of console
 - Pricing rules & seat classes
+- Payment integration and refunds.
+- Seat selection (window/aisle).
+- Multi-leg flights and connections.
+- User authentication and loyalty programs.
 
 ---
 
+## Contributing
+
+- Fork the repository.
+- Create a feature branch.
+- Add or update tests for your changes.
+- Run mvn test to ensure everything passes.
+- Open a pull request with a clear description.
+
+---
