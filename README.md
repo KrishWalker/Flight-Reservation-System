@@ -10,17 +10,6 @@ Real-time Seat Management: Prevents overbooking with synchronized booking operat
 
 The focus of this exercise was to demonstrate clean object-oriented design, test coverage, and maintainable code.
 
-Project Structure
-src/
-├── main/java/com/airline/reservation/
-│   ├── model/
-│   │   ├── Flight.java          # Flight entity
-│   │   └── Reservation.java     # Reservation entity
-│   ├── service/
-│   │   └── FlightService.java   # Business logic
-│   └── FlightReservationApp.java # Main application
-└── test/java/com/airline/reservation/service/
-    └── FlightServiceTest.java   # Unit tests
 
 ---
 
