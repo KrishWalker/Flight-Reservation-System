@@ -39,4 +39,14 @@ mvn clean install
 mvn exec:java
 ```
 
+📌 Future Enhancements
+
+Integration with a real database
+
+REST API layer
+
+Web UI instead of console
+
+Pricing rules & seat classes
+
 
