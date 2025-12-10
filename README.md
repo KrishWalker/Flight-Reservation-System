@@ -13,7 +13,7 @@ The focus of this exercise was to demonstrate clean object-oriented design, test
 
 ---
 
-## 🧩 Features
+## Features
 
 - Search flights by destination and date  
 - Book seats on a flight (with seat-availability validation)  
@@ -21,14 +21,9 @@ The focus of this exercise was to demonstrate clean object-oriented design, test
 - In-memory storage for flights and reservations  
 - Unit tests using JUnit 5  
 
-Requirements
-
-Java 8 or higher
-JUnit 5 (for running tests)
-Maven or Gradle (optional, for dependency management)
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Java 17  
 - JUnit 5  
@@ -36,7 +31,7 @@ Maven or Gradle (optional, for dependency management)
 
 ---
 
-## ▶️ Running the Application
+## Running the Application
 
 1. Clone the repository:
 
@@ -50,7 +45,7 @@ mvn clean install
 mvn exec:java
 ```
 
-📌 Future Enhancements
+Future Enhancements
 
 Integration with a real database
 
