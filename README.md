@@ -1,7 +1,12 @@
 # Flight Reservation System (Java)
 
-This project simulates a small section of a real-world airline reservation system.  
-It allows users to search flights, book seats, and view their reservations using a simple console interface.
+A console-based flight reservation system built in Java that allows users to search for flights, book reservations, and manage their bookings.
+Features
+
+Search Flights: Search for available flights by destination and date
+Book Flights: Reserve seats on available flights
+View Reservations: View all reservations for a specific customer
+Real-time Seat Management: Prevents overbooking with synchronized booking operations
 
 The focus of this exercise was to demonstrate clean object-oriented design, test coverage, and maintainable code.
 
