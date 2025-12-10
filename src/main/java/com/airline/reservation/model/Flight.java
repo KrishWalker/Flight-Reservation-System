@@ -53,7 +53,7 @@ public class Flight {
      * Reduces available seats by the specified amount.
      * This method is package-private to be accessed only by FlightService.
      */
-    void reduceSeats(int seats) {
+    public void reduceSeats(int seats) {
         if (seats < 0) {
             throw new IllegalArgumentException("Cannot reduce by negative seats");
         }
